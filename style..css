@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+body {
+    background-color : cornsilk;
+}
+
+a {
+    color : salmon;
+}
+
+a:hover{
+    color:red;
+    text-decoration :none;
+}
+
+h1 {
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px,solid aqua;
+    background-color: aquamarine;
+    color: brown;
+    font-size: 350%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px cadetblue;
+    box-shadow: 0 0 10px white;
+    background-image: linear-gradient(to bottom,aquamarine,cadetblue);
+    font-family: 'Limelight', cursive;
+}
+
+h2 {
+
+    padding: 10px;
+    margin-bottom:30px;
+    border: 1px dotted #ffd800;
+    border-left:10px solid #4cff00;
+    color: blue;
+}
+
+footer {
+    width: 420px;
+    margin : 20px auto;
+    padding: 10px;
+    background-color: white;
+}
+
+
+#contents {
+    width: 798px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px,solid aqua;
+    background-color: white;
+}
+
+.more {
+    text-align :right;
+}
+
+.h {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #ffd800;
+    border-left: 10px solid #4cff00;
+    color: blue;
+}
+
+#contents > section + section {
+    margin-top: 80px;
+}
+
+header,nav,footer{
+    text-align:center;
+}
+
+body {
+    background: 
+        url(image/Star.png) left bottom no-repeat,
+        url(image/Meteor.png) right bottom no-repeat, 
+        url(image/Moon.png) left top no-repeat, 
+        url(image/Planet.png) right top no-repeat,
+        cadetblue url(image/background.jpg) repeat-x;
+}
+
+.menu li {
+    list-style-type : none;
+    display : inline-block;
+    width : 180px;
+    margin : 0 10px;
+}
+
+.menu a {
+    display:block;
+    padding : 10px;
+    background : #0094ff;
+    border-radius : 8px;
+    color : white;
+    text-decoration : none;
+}
+
+.menu a:hover {
+    background : #00ffff;
+}
+
+.photo {
+    float :left;
+    margin-right : 20px;
+}
+
+.clear {
+    clear :both;
+}
+
+.frame {
+    
+}

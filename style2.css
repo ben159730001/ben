@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body {
+    background: #00A9FF repeat-x;
+}
+
+th {
+    background-color: #00A9FF;
+    text-align: center;
+}
+
+th,
+td {
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+th {
+    width: 20%;
+}
+
+th,
+td {
+    padding: 12px;
+}
+
+td {
+    background-color: #F9F3CC;
+    color: #000000;
+}
+
+th {
+    background-color: #F86F03;
+    color: #000000;
+}
+
+a {
+    color: #ff0000;
+}
+
+a:hover {
+    color: #FFD700;
+}
+a:visited{
+    color:#000000;
+}
